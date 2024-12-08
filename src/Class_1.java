@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class Class_1 {
-	
+
 	public static void main(String [] args) throws InterruptedException
 	{
 		
@@ -67,17 +67,16 @@ public class Class_1 {
 		
 		
 		
-		//How to close the browser -> by using close() -> WebDriver -> return type is void 
-		//close() - will close the current tab
 		
-		
-		//driver.close();
-		
-		//How to quit the entire browser -> by using quit() -> webDriver -> return type is void
-		//quit() -> it will close the entire browser 
-		
-		//driver.quit();
-		
+		// How to close the browser -> by using close() -> WebDriver -> return type is
+		 //void //close() - will close the current tab
+		 driver.close();
+		/* * 
+		 * //How to quit the entire browser -> by using quit() -> webDriver -> return
+		 * type is void //quit() -> it will close the entire browser
+		 * 
+		 * //driver.quit();
+		 	*/	
 		
 		
 		
