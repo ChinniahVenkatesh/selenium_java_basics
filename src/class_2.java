@@ -37,6 +37,6 @@ public class class_2 {
 		driver.findElement(By.xpath("//*[@data-testid='signupButton']")).click();
 		Thread.sleep(5000);
 		System.out.println(driver.findElement(By.xpath("//button[@data-testid='ocfSignupNextLink']")).isEnabled());
-		
+		driver.close();
 	}
 }
